@@ -9,43 +9,7 @@
 		<link rel="shortcut icon" href="favicon.png" type="image/png">
 		<!-- Javascript and CSS stuff -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		html {
-  			background-color: black;
-  			font-size: 20px;
-		}
-
-		ul {
- 			background: green;
-  			padding: 10px;
-  			border: 1px solid black;
-		}
-
-		li {
-  			margin-left: 20px;
-		}
-		<script src="my-js-file.js">
-		var list = document.createElement('ul');
-		var info = document.createElement('p');
-		var html = document.querySelector('html');
-
-		info.textContent = 'Below is a dynamic list. Click anywhere outside the list to add a new list item. Click an existing list item to change its text to something else.';
-
-		document.body.appendChild(info);
-		document.body.appendChild(list);
-
-		html.onclick = function() {
-  		var listItem = document.createElement('li');
-  		var listContent = prompt('What content do you want the list item to have?');
-  		listItem.textContent = listContent;
-  		list.appendChild(listItem);
-
-  		listItem.onclick = function(e) {
-    		e.stopPropagation();
-    		var listContent = prompt('Enter new content for your list item');
-    		this.textContent = listContent;
-  		}
-		}
-		</script>
+		<script src="my-js-file.js"></script>
 	</head>
 	<body>
 		<h1>Ivan's webpage!!</h1>
