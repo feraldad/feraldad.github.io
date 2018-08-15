@@ -3,7 +3,8 @@
 
 @import "{{ site.theme }}";
 
-html {
+body {
+  html {
   background-color: green;
   font-size: 20px;
 }
@@ -18,7 +19,6 @@ li {
   margin-left: 20px;
 }
 
-body {
     margin: 60px auto;
     width: 70%;
 }
