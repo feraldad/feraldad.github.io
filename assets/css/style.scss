@@ -3,23 +3,18 @@
 
 @import "{{ site.theme }}";
 
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+p {
+  color: red;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
-    font-family: 'Courier New', 'Monospace';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-}
+
