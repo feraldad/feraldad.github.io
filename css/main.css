@@ -4,13 +4,11 @@
 @import "{{ site.theme }}";
 
 h1 {
-  colour: blue;
-  background-color: yellow;
-  border: 1px solid black;
+  colour: 800000;
 }
 
 p {
-  color: red;
+  color: 800000;
 }
 
 p, li {
